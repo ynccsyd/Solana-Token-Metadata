@@ -1,5 +1,5 @@
 # Solana-Token-Metadata
-## Getting Started
+## $\textcolor{green}{Getting\ Started}$
 
 First, run the development server:
 ```bash
@@ -20,7 +20,7 @@ const decimals = 2
 const amount = 1
 
 ```
-#### $\textcolor{red}{Do\ not\ forget\ to\ add\ your\ image\ in\ SRC!}$
+#### $\textcolor{red}{Do\ not\ forget\ to\ add\ your\ image\ in\ SRC!}$ :v:
  ```ruby
 // file to buffer
   const buffer = fs.readFileSync("src/phoenix.jpg")
@@ -33,9 +33,14 @@ const amount = 1
   console.log("image uri:", imageUri)
 
 ```
- ### $\textcolor{green}{ And\ run\ code\, here\ is\ your\ METADATA :}$
-````
-{"name":"Paracoin","description":"Welcome to the rebirth of everything.","image":"https://arweave.net/rdkW0-WL8RVPOxvkDk7VnHv2Z9aofQuB16VmEhT7LnI"}
+### :tada:  $\textcolor{green}{ And\ run\ code\, here\ is\ your\ METADATA :}$ 
+ 
+````json
+{
+"name":"Paracoin",
+"description":"Welcome to the rebirth of everything.",
+"image":"https://arweave.net/rdkW0-WL8RVPOxvkDk7VnHv2Z9aofQuB16VmEhT7LnI"
+}
 ````
 
 <p align="center">
