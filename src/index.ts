@@ -33,11 +33,11 @@ import {
 } from "@metaplex-foundation/mpl-token-metadata"
 import * as fs from "fs"
 
-const tokenName = "Paracoin"
-const description = "Welcome to the rebirth of everything."
+const tokenName = "MangırCoin"
+const description = "Welcome to rebirth of the everything."
 const symbol = "PRC"
 const decimals = 2
-const amount = 1
+const amount = 1000
 
 async function main() {
   const connection = new Connection(clusterApiUrl("devnet"))
@@ -72,10 +72,10 @@ async function main() {
     )
 
   // file to buffer
-  const buffer = fs.readFileSync("src/phoenix.jpg")
+  const buffer = fs.readFileSync("src/images.png")
 
   // buffer to metaplex file
-  const file = toMetaplexFile(buffer, "phoenix.jpg")
+  const file = toMetaplexFile(buffer, "images.png")
 
   // upload image and get image uri
   const imageUri = await metaplex.storage().upload(file)
