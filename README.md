@@ -1,5 +1,5 @@
 # Solana-Token-Metadata
-## $\textcolor{green}{Getting\ Started}$
+* # $\textcolor{green}{Getting\ Started}$
 
 First, run the development server:
 ```bash
@@ -10,7 +10,7 @@ npm install @metaplex-foundation/mpl-token-metadata
 npm start
 ```
  ---
- ### $\textcolor{green}{Let's\ start}$
+ * ## $\textcolor{green}{Let's\ start}$
   - First describe your token metada:
   ```ruby
 const tokenName = "Paracoin"
@@ -33,7 +33,7 @@ const amount = 1
   console.log("image uri:", imageUri)
 
 ```
-### :tada:  $\textcolor{green}{ And\ run\ code\, here\ is\ your\ METADATA :}$ 
+* ## :tada:  $\textcolor{green}{ And\ run\ code\, here\ is\ your\ METADATA :}$ 
  
 ````json
 {
